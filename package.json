@@ -1,6 +1,6 @@
 {
-  "name": "charts-library",
-  "version": "0.0.0",
+  "name": "tbg-charts-library",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -50,5 +50,23 @@
     "tslib": "^1.9.0",
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
-  }
+  },
+  "description": "A Graphing Library to utilize reusable components in Angular app.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khiemdc/angular-charts-library.git"
+  },
+  "keywords": [
+    "chart",
+    "angular",
+    "chart",
+    "tbg-charts-library"
+  ],
+  "author": "Khiem Le - The Buffalo Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khiemdc/angular-charts-library/issues"
+  },
+  "homepage": "https://github.com/khiemdc/angular-charts-library#readme"
 }

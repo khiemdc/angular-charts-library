@@ -1,6 +1,8 @@
 # ChartsLibrary
 A Graphing Library to utilize reusable components in Angular app.
 
+As a developer in Innovation team at The Buffalo Group, I have been in a handful of projects with an extremely large number of files and components, which is cumbersome. To better handle such, we can reuse components to keep out logic at a minimum and, in general, follow good practices.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 ## Development server
