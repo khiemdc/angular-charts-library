@@ -1,0 +1,12 @@
+  
+<div class="row" *ngIf="lineChart">  
+  <div style="display: block">  
+      <canvas baseChart  
+              [datasets]="lineChart.parserList"
+              [labels]="lineChart.chartLabels"
+              [colors]="lineChartColors"  
+              [options]="chartOptions"  
+              [legend]="chartLegend"  
+              [chartType]="chartType"></canvas>  
+  </div>  
+</div> 

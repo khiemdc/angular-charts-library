@@ -1,0 +1,28 @@
+{  
+    "dataList": [  
+        {  
+            "data": [6, 11, 6, 8, 7, 9],  
+            "label": "Uploaded"  
+        },  
+        {  
+            "data": [8, 6, 5, 4, 7, 6],  
+            "label": "Imported"  
+        },  
+        {  
+            "data": [6, 8, 5, 5, 6, 3],  
+            "label": "Parsed"  
+        },  
+        {  
+            "data": [4, 2, 4, 5, 3, 4],  
+            "label": "Approved"  
+        }  
+    ],  
+    "chartLabels": [  
+        "Christopher Whitlock",  
+        "William Boggs",  
+        "Raymond Duchesne",  
+        "Yetnayet Kide",  
+        "Daven Basra",  
+        "Khiem Le"
+    ]  
+}

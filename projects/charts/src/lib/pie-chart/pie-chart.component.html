@@ -1,0 +1,11 @@
+<div class="row" *ngIf="pieChart">  
+  <div style="display: block">  
+      <canvas baseChart  
+              [data]="pieChart.document"
+              [colors]="pieChartColors"
+              [labels]="pieChart.countries"
+              [options]="chartOptions"  
+              [legend]="chartLegend"  
+              [chartType]="chartType"></canvas>  
+  </div>  
+</div>  

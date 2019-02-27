@@ -1,5 +1,6 @@
 {
   "compileOnSave": false,
+  "exclude": ["dist"],
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -16,6 +17,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "charts": [
+        "dist/charts"
+      ],
+      "charts/*": [
+        "dist/charts/*"
+      ]
+    }
   }
 }

@@ -1,0 +1,18 @@
+{  
+    "countries": [  
+        "North Korea",  
+        "Pakistan",
+        "Syria",  
+        "Afghanistan",  
+        "Iran",  
+        "Iraq"
+    ],
+    "document": [  
+        262,  
+        91,  
+        611,  
+        399,  
+        918,  
+        807  
+    ]  
+}  

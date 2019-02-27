@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'charts-library';
+  title = 'TBG Charts Library';
+
+  // Backend api will go here
+  lineChartApi = '../assets/line-chart.json';
+  barChartApi = '../assets/bar-chart.json';
+  pieChartApi = '../assets/pie-chart.json';
+  donutChartApi = '../assets/donut-chart.json';
+
 }

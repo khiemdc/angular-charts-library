@@ -1,0 +1,12 @@
+  
+<div class="row" *ngIf="barChart">  
+  <div style="display: block">  
+      <canvas baseChart  
+              [datasets]="barChart.dataList"
+              [labels]="barChart.chartLabels"
+              [colors]="barChartColors"
+              [options]="chartOptions"  
+              [legend]="chartLegend"  
+              [chartType]="chartType"></canvas>  
+  </div>  
+</div> 
